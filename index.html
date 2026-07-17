@@ -10,12 +10,12 @@
     <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
     <link rel="stylesheet" href="assets/css/pico.purple.min.css">
     <link rel="canonical" href="https://maxtoper.me/">
-    <meta name="description" content="Security Researcher.">
+    <meta name="description" content="Security researcher sharing projects and publications covering malware analysis, vulnerability research, and offensive security.">
     <title>Max Toper | Security Researcher</title>
 
     <!-- Open Graph -->
     <meta property="og:title" content="Max Toper">
-    <meta property="og:description" content="Security Researcher.">
+    <meta property="og:description" content="Security researcher sharing projects and publications covering malware analysis, vulnerability research, and offensive security.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://maxtoper.me">
     <meta property="og:image" content="https://maxtoper.me/assets/img/logo.png">
@@ -24,7 +24,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Max Toper">
-    <meta name="twitter:description" content="Security Researcher.">
+    <meta name="twitter:description" content="Security researcher sharing projects and publications covering malware analysis, vulnerability research, and offensive security.">
     <meta name="twitter:image" content="https://maxtoper.me/assets/img/logo.png">
 
     <style>
@@ -37,12 +37,17 @@
       }
 
       h2 {
-          font-size: 1.3rem;
+        font-size: 1.1rem; 
       }
 
       h3 {
-          font-size: 1.1rem;
+          font-size: 1rem;
       }
+
+      h4 { 
+        font-size: 0.8rem;
+      }
+
       main {
           max-width: 700px;
           margin: 0 auto;
@@ -54,34 +59,57 @@
       border: none;
       box-shadow: none;
      }
+     article a {
+     display: inline-block;
+     margin-bottom: .2rem;
+     }
+     p {
+      max-width: 70ch;
+      line-height: 1.4rem;
+     }
+    footer {
+    margin-top: 2rem;
+    }
+    small {
+      color: #F3EFF7
+    }
   </style>
   </head>
   <body>
     <main class="container-fluid">
       <h1>Max Toper</h1>
       <h2>Security Researcher</h2>
-      <nav aria-label="breadcrumb" style="--pico-nav-breadcrumb-divider: '|';">
-        <ul>
-            <li><a href="https://github.com/maxtoper" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/maxtoper/"  target="_blank">LinkedIn</a></li>
-       </ul>
-    </nav>
-     <h3>Publications</h3>
-     <article>
-      <a href="https://labs.reversec.com/posts/2025/10/entra-connect-exploitation-in-2025-an-overview" target="_blank">
-        Entra Connect Exploitation in 2025: An Overview
-      </a>
-      <br>
-      <small>Published via Reversec</small>
-    </article>
+      <h3>About</h3>
+      <p>I'm a security researcher with an interest in malware analysis, vulnerability research, and offensive security. 
+        This website is where I share my projects and publications, and I update it whenever I have something new to share. 
+        In the meantime, feel free to explore my <a href="https://github.com/maxtoper" target="_blank">GitHub</a> or get in touch via <a href="https://www.linkedin.com/in/maxtoper/" target="_blank">LinkedIn</a> 
+        if you'd like to connect. </p>
+    <section>
+        <h3>Publications</h3>
+      <article>
+        <h4>
+        <a class ="articlelink" href="https://labs.reversec.com/posts/2025/10/entra-connect-exploitation-in-2025-an-overview" target="_blank">
+          Entra Connect Exploitation in 2025: An Overview
+        </a>
+        </h4>
+        <small>October 2025 • Reversec</small>
+      </article>
+  </section>
+  <section>
      <h3>Projects</h3>
     <article>
-          <a href="https://github.com/maxtoper/Analysis-of-Android-Malware-Trends-Threat-Intelligence-Report" target="_blank">
-            Analysis of Android-Malware Trends: Threat Intelligence Report
-          </a>
-          <br>
-          <small>Undergraduate dissertation (BSc Computer Security)</small>
-        </article>
+          <h4>
+            <a href="https://github.com/maxtoper/Analysis-of-Android-Malware-Trends-Threat-Intelligence-Report" target="_blank">
+              Analysis of Android-Malware Trends: Threat Intelligence Report
+            </a>
+          </h4>
+          <small>April 2026 • Undergraduate dissertation (BSc Computer Security)</small>
+    </article>
+  </section>
+  <footer>
+    <hr>
+    <p>Last updated: July 2026</p>
+  </footer>
     </main>
   </body>
 </html>
